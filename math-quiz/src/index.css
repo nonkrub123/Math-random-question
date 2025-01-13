@@ -1,0 +1,81 @@
+/* Dark Mode */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212; /* สีพื้นหลังมืด */
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  background-color: #1e1e1e; /* สีพื้นหลังสำหรับกล่องเนื้อหาที่มืดขึ้น */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #ffffff; /* ตัวอักษรสีขาว */
+}
+
+.input-box input {
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 16px;
+  width: 60%;
+  background-color: #333333; /* พื้นหลัง input */
+  color: #ffffff; /* สีตัวอักษรใน input */
+  border: 1px solid #555555; /* ขอบ input */
+}
+
+.input-box button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50; /* ปุ่มเขียว */
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.input-box button:hover {
+  background-color: #45a049; /* เมื่อ hover ปุ่ม */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #008CBA; /* ปุ่มหลัก */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007B9E; /* เมื่อ hover ปุ่ม */
+}
+
+.correct-answer {
+  color: #4CAF50; /* สีเขียวสำหรับคำตอบถูก */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.incorrect-answer {
+  color: #FF5722; /* สีแดงสำหรับคำตอบผิด */
+  font-size: 20px;
+  font-weight: bold;
+}
